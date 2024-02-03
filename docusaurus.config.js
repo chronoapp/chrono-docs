@@ -8,8 +8,8 @@ import {themes as prismThemes} from 'prism-react-renderer';
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: 'Chrono',
-  tagline: 'A modern calendar for creators',
+  title: 'A modern calendar for creators',
+  tagline: 'Open source calendar for time well spent, using habit tracking, people analytics, and scheduling.',
   favicon: 'img/favicon.ico',
 
   // Set the production url of your site here
