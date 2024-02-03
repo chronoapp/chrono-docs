@@ -79,7 +79,7 @@ function UsefulForSection() {
 
 function FeaturesSection() {
   return (
-    <div className="min-w-full bg-gray-100 mt-12 pt-8">
+    <div className="min-w-full bg-gray-100 mt-8 pt-8">
       <div class="container pb-10 pt-10">
         <div class="w-full lg:w-3/4 mx-auto relative">
           <div class="grid grid-cols-1 lg:grid-cols-12 gap-8 items-center">
