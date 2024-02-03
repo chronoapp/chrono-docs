@@ -59,7 +59,7 @@ const config = {
         disableSwitch: true,
       },
       // Replace with your project's social card
-      image: 'img/docusaurus-social-card.jpg',
+      // image: 'img/docusaurus-social-card.jpg',
       navbar: {
         logo: {
           alt: 'Chrono Logo',

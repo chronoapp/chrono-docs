@@ -13,11 +13,12 @@ const WeekView = require("@site/static/img/week.svg").default;
 function HomepageHeader() {
   const { siteConfig } = useDocusaurusContext();
   return (
-    <header className={clsx("hero", styles.heroBanner)}>
+    <header className={clsx(styles.heroBanner)}>
       <div className="container">
-        <Heading as="h1" className="hero__title">
+        <h1 class="text-5xl font-bold mt-2">
           {siteConfig.title}
-        </Heading>
+        </h1>
+
         <p className={"hero__subtitle"}>{siteConfig.tagline}</p>
 
         <div className={styles.buttons}>
