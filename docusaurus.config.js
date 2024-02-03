@@ -76,12 +76,6 @@ const config = {
         },
         items: [
           {
-            type: 'docSidebar',
-            sidebarId: 'tutorialSidebar',
-            position: 'left',
-            label: 'Tutorial',
-          },
-          {
             to: '/why-chrono',
             label: 'Why Chrono',
             position: 'right'
