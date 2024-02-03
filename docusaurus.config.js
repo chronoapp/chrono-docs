@@ -78,9 +78,13 @@ const config = {
             position: 'left',
             label: 'Tutorial',
           },
-          {to: '/blog', label: 'Blog', position: 'left'},
           {
-            href: 'https://github.com/facebook/docusaurus',
+            to: '/why-chrono',
+            label: 'Why Chrono',
+            position: 'right'
+          },
+          {
+            href: 'https://github.com/chronoapp/chrono',
             label: 'GitHub',
             position: 'right',
           },
@@ -102,16 +106,8 @@ const config = {
             title: 'Community',
             items: [
               {
-                label: 'Stack Overflow',
-                href: 'https://stackoverflow.com/questions/tagged/docusaurus',
-              },
-              {
-                label: 'Discord',
-                href: 'https://discordapp.com/invite/docusaurus',
-              },
-              {
                 label: 'Twitter',
-                href: 'https://twitter.com/docusaurus',
+                href: 'https://twitter.com/chronoapp',
               },
             ],
           },
@@ -119,17 +115,21 @@ const config = {
             title: 'More',
             items: [
               {
-                label: 'Blog',
-                to: '/blog',
+                label: 'Terms',
+                to: '/terms',
+              },
+              {
+                label: 'Privacy Policy',
+                to: '/privacy-policy'
               },
               {
                 label: 'GitHub',
-                href: 'https://github.com/facebook/docusaurus',
+                href: 'https://github.com/chronoapp/chrono',
               },
             ],
           },
         ],
-        copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`,
+        copyright: `Copyright © ${new Date().getFullYear()} Chrono, Inc.`,
       },
       prism: {
         theme: prismThemes.github,
