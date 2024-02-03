@@ -61,10 +61,9 @@ const config = {
       // Replace with your project's social card
       image: 'img/docusaurus-social-card.jpg',
       navbar: {
-        title: 'Chrono',
         logo: {
           alt: 'Chrono Logo',
-          src: 'img/chrono-logo.svg',
+          src: 'img/chrono-logo-text.svg',
         },
         items: [
           {
