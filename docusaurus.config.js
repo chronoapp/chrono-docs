@@ -83,11 +83,11 @@ const config = {
         style: 'dark',
         links: [
           {
-            title: 'Docs',
+            title: 'Company',
             items: [
               {
-                label: 'Tutorial',
-                to: '/docs/intro',
+                label: 'Why us',
+                to: '/why-chrono',
               },
             ],
           },
@@ -96,7 +96,7 @@ const config = {
             items: [
               {
                 label: 'Twitter',
-                href: 'https://twitter.com/chronoapp',
+                href: 'https://twitter.com/chrono_app',
               },
             ],
           },
