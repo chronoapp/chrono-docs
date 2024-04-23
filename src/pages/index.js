@@ -12,12 +12,11 @@ const WeekView = require("@site/static/img/week.svg").default;
 
 function HomepageHeader() {
   const { siteConfig } = useDocusaurusContext();
+
   return (
     <header className={clsx(styles.heroBanner)}>
-      <div className="container">
-        <h1 class="text-5xl font-bold mt-2">
-          {siteConfig.title}
-        </h1>
+      <div className="container border border-gray-400">
+        <h1 class="text-5xl font-bold mt-2">{siteConfig.title}</h1>
 
         <p className={"hero__subtitle"}>{siteConfig.tagline}</p>
 
@@ -29,8 +28,9 @@ function HomepageHeader() {
             Sign up for beta
           </Link>
         </div>
-
-        <WeekView />
+        <div className="border border-zinc-200">
+          <WeekView />
+        </div>
       </div>
     </header>
   );
@@ -123,10 +123,7 @@ function FeaturesSection() {
 export default function Home() {
   const { siteConfig } = useDocusaurusContext();
   return (
-    <Layout
-      title={`${siteConfig.title}`}
-      description={`${siteConfig.tagline}`}
-    >
+    <Layout title={`${siteConfig.title}`} description={`${siteConfig.tagline}`}>
       <HomepageHeader />
       <main>
         <FeaturesSection />

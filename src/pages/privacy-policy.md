@@ -131,6 +131,10 @@ For example, the photo that you upload to your public profile, or a default imag
 
 Please keep all of this in mind when deciding what you would like to share publicly.
 
+#### *Google API Services User Data Policy*
+
+(Chrono's) use and transfer to any other app of information received from Google APIs will adhere to [Google API Services User Data Policy](https://developers.google.com/terms/api-services-user-data-policy), including the Limited Use requirements.
+
 ### How Long We Keep Information
 
 We generally discard information about you when it's no longer needed for the purposes for which we collect and use it — described in the section above on How and Why We Use Information — and we're not legally required to keep it.
