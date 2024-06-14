@@ -67,6 +67,11 @@ const config = {
         },
         items: [
           {
+            to: 'https://app.rechrono.com',
+            label: 'Log in',
+            position: 'right'
+          },
+          {
             to: '/why-chrono',
             label: 'Why Chrono',
             position: 'right'

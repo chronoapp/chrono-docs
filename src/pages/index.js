@@ -23,9 +23,9 @@ function HomepageHeader() {
         <div className={styles.buttons}>
           <Link
             className="button button--secondary button--lg"
-            to="http://eepurl.com/g__xeb"
+            to="https://app.rechrono.com"
           >
-            Sign up for beta
+            Try Chrono
           </Link>
         </div>
         <div className="border border-zinc-200">
